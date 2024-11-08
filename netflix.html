@@ -11,15 +11,15 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="bg-dark text-light">
+  <body class="bg-dark text-light mx-5">
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid mx-4">
+        <div class="container-fluid">
           <img
             src="./assets/netflix_logo.png" width="90px"
             alt="Logo Netflix"
           />
           <button
-            class="navbar-toggler"
+            class="navbar-toggler bg-secondary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -97,7 +97,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <img src="./assets/avatar.png" alt="" width="40px" />
+                  <img src="./assets/kids_icon.png" alt="" width="40px" />
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -109,12 +109,12 @@
         </div>
       </nav>
   
-      <div class="container d-flex justify-content-between align-items-center mx-4">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
         
           <div class="primo-blocco d-flex">
           <h1 class="text-light">TV Shows</h1>
           <div class="btn-group dropend d-flex mx-5">
-              <button type="button" class="btn btn-secondary bg-black dropdown-toggle border-2" data-bs-toggle="dropdown" aria-expanded="false">
+              <button type="button" class="btn btn-secondary bg-black dropdown-toggle border-1 btn-sm" data-bs-toggle="dropdown" aria-expanded="false">
               Generi
               </button>
               <ul class="dropdown-menu bg-dark-subtle">
@@ -125,11 +125,11 @@
             </div>  
            </div>  
               
-              <div class="buttons">
-                  <button class="bg-dark text-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <div class="buttons ms-auto">
+                  <button class="bg-dark text-light me-3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                     </svg></button>
-                  <button class="bg-dark text-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
+                  <button class="bg-dark text-light me-3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
                       <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z"/>
                     </svg></button>
               </div>
@@ -137,9 +137,9 @@
           </div>
       
   
-          <div class="container-fluid mx-0 my-4">
+          <div class="container-fluid my-4 ">
               <h2 class="display-5 fs-4 text-light">Trending Now</h1>
-              <div class="row row-cols-2 gy-3 row-cols-md-3 gy-3 row-cols-lg-6">
+              <div class="row row-cols-2 gy-3 gx-1 row-cols-md-3 gy-3 gx-1 row-cols-lg-6 gy-3 gx-1">
                   <div class="col">
                       <img src="./assets/media/media0.webp" alt="" class="img-fluid">
                   </div>
@@ -162,9 +162,9 @@
           </div>
   
   
-          <div class="container-fluid ms-0 my-4">
+          <div class="container-fluid my-4">
               <h2 class="display-5 fs-4 text-light">Watch It Again</h1>
-              <div class="row row-cols-2 gy-3 row-cols-md-3 gy-3 row-cols-lg-6">
+              <div class="row row-cols-2 gy-3 gx-1 row-cols-md-3 gy-3 gx-1 row-cols-lg-6 gy-3 gx-1">
                   <div class="col">
                       <img src="./assets/media/media6.jpg" alt="" class="img-fluid">
                   </div>
@@ -187,9 +187,9 @@
           </div>
   
   
-          <div class="container-fluid ms-auto my-4">
+          <div class="container-fluid  my-4 ">
               <h2 class="display-5 fs-4 text-light">New Releases</h1>
-              <div class="row row-cols-2 gy-3 row-cols-md-3 gy-3 row-cols-lg-6">
+              <div class="row row-cols-2 gy-3 gx-1 row-cols-md-3 gy-3 gx-1 row-cols-lg-6 gy-3 gx-1">
                   <div class="col">
                       <img src="./assets/media/media12.jpg" alt="" class="img-fluid">
                   </div>
@@ -211,7 +211,7 @@
               </div>
           </div>
           
-              <footer class=" container text-light py-4 my-5">
+              <footer class=" container text-light py-5 my-5">
                 <div class="row justify-content-center mb-4 ms-0">
                     <div class="d-flex justify-content-start">
                         
@@ -294,7 +294,7 @@
                   </div>
                   <p class="mt-4">&copy; 1997 - 2019 Netflix, inc. (hjsvVKVASAHJak)</p>
                 </div>
-                </div>
+                
             
              </footer>
   
